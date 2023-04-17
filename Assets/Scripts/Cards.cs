@@ -15,4 +15,15 @@ public class Cards : MonoBehaviour
     {
         
     }
+
+    public int cost;
+    public int hp;
+    public int attack;
+    public int id;
+    public string name;
+    public string description;
+
+    public Cards(){
+        
+    }
 }
