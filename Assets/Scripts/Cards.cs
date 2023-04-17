@@ -27,7 +27,7 @@ public class Cards : MonoBehaviour
 
     }
 
-    public Cards(int cost, int hp, int attack, int id, string cardName, string description){
+    public Cards(int id, int hp, int attack, int cost, string cardName, string description){
         this.cost = cost;
         this.hp = hp;
         this.attack = attack;
