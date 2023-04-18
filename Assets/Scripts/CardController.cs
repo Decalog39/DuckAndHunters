@@ -17,16 +17,11 @@ public class CardController : MonoBehaviour
     private void Start() {
     }
 
-    public void Initialize(CharCard card) {
+    public void Initialize(Card card) {
         cardName.text = card.cardName;
-        cost.text = card.text.ToString();
+        cost.text = card.cost.ToString();
         attack.text = card.attack.ToString();
         health.text = card.health.ToString();
-    }
-
-    public void Initialize(SpellCard card) {
-        cardName.text = card.cardName;
-        cost.text = card.text.ToString();
     }
 
     private void Update() {

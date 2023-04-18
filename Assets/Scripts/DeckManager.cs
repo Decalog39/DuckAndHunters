@@ -9,8 +9,8 @@ public class DeckManager : MonoBehaviour
     void Start()
     {
         for (int i = 0; i < 15; i++){
-            deck[3] = (new CharCard(3, 0, 0, 0, null, null));
-            deck[15 + i] = (new SpellCard(15 + i, 0, null, null));
+            deck[i] = (new Card(i, true, 0, 0, 0, null, null));
+            deck[15 + i] = (new Card(15 + i, false, 0, null, null, null, null));
         }
     }
 }
