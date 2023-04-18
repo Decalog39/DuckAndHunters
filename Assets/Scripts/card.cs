@@ -10,4 +10,4 @@ public class Card : ScriptableObject
     {
         this.id = id;
     }
-}
+}   
