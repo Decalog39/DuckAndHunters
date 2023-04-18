@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CardManager{
+public class CardManager : MonoBehaviour{
     public static List<Card> cardlist = new List<Card>();
     
-    public CardManager()
+    void Awake()
     {
         cardlist.Add(new CharCard(0, 0, 0, 0, null, null));
         cardlist.Add(new CharCard(1, 0, 0, 0, null, null));
