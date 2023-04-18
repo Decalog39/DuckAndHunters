@@ -2,22 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharCard
+public class CharCard : Card
 {
-    public int id;
-    public int cost;
-    public String cardName;
-    public String description;
     public int hp;
     public int attack;
+    public string cardName;
+    public string description;
+    public int cost;
 
-
-    public Card(int id, int hp, int attack, int cost, String cardName, String description){
-        this.cost = cost;
+    public CharCard(int id, int hp, int attack, int cost, string cardName, string description) : base(id)
+    {
         this.hp = hp;
         this.attack = attack;
-        this.id = id;
         this.cardName = cardName;
         this.description = description;
+        this.cost = cost;
     }
 }
