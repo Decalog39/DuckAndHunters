@@ -26,7 +26,7 @@ public class DisplayCard : MonoBehaviour
     //public TextMeshProUGUI descriptionText;
 
     void Start() {
-        displayCard[0] = DeckManager.deck[displayID];
+        displayCard[0] = CardDatabase.cardList[displayID];
     }
 
     void Update() {

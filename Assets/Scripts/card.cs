@@ -11,7 +11,7 @@ public class Card
     public string cardName, description;
     public bool character;
 
-    public Card(int id, bool character, int cost, int? health, int? attack, string cardName, string description)
+    public Card(int id, bool character, string cardName, int cost, int? health, int? attack, string description)
     {
         this.id = id;
         this.character = character;
