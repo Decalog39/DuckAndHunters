@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class CharCard : Card
 {
-    public int hp;
-    public int attack;
+    public int health, attack, cost;
     public string cardName;
     public string description;
-    public int cost;
 
-    public CharCard(int id, int hp, int attack, int cost, string cardName, string description) : base(id)
+    public CharCard(int id, int health, int attack, int cost, string cardName, string description) : base(id)
     {
-        this.hp = hp;
+        this.health = health;
         this.attack = attack;
         this.cardName = cardName;
         this.description = description;
         this.cost = cost;
     }
 }
+
