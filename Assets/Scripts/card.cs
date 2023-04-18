@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+[System.Serializable]
 
 public class Card
 {
@@ -19,4 +21,5 @@ public class Card
         this.cardName = cardName;
         this.description = description;
     }
+
 }   

@@ -1659,6 +1659,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1cd0fc2508604521aa33f9ce5b6e385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  card:
+    id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
   cardName: {fileID: 0}
   cost: {fileID: 0}
   attack: {fileID: 0}
@@ -1907,6 +1913,207 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ce5f2b76eb44a8b97afc51772ec633, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deck:
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
 --- !u!4 &2005776625
 Transform:
   m_ObjectHideFlags: 0
