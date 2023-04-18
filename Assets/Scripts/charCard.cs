@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.serializable]
 public class CharCard : Card
 {
     public int health, attack, cost;
