@@ -11,10 +11,10 @@ public class PlayerHandDeckManager: MonoBehaviour
     void Awake()
     {
         for (int i = 0; i < 20; i++){
-            deck.Add(new Card(i, true, i%5, 3, 2, "Card" + i, "NA"));
+            deck.Add(new Card(i, true, "Card" + i, i%5, 3, 2, "NA"));
         }
         for (int i = 20; i < 40; i++){
-            deck.Add(new Card(i, false, i%5, null, null, "Card" + i, "NA"));
+            deck.Add(new Card(i, false, "Card" + i, i%5, null, null, "NA"));
         }
     }
 
