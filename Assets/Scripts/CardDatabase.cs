@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Database : MonoBehaviour {
-    public static List<Cards> cardlist = new List<Cards>();
+    public static List<Card> cardlist = new List<Card>();
     
     void Awake() {
-        cardlist.Add(new Cards(0, 0, 0, 0, "None", "None"));
+        cardlist.Add(new Card(0, 0, 0, 0, "None", "None"));
     }
 }
