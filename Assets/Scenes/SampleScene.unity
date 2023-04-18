@@ -1659,6 +1659,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1cd0fc2508604521aa33f9ce5b6e385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  card:
+    id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
   cardName: {fileID: 0}
   cost: {fileID: 0}
   attack: {fileID: 0}
@@ -1907,6 +1913,157 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ce5f2b76eb44a8b97afc51772ec633, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deck:
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
+  - id: 0
+    cost: 0
+    cardName: 
+    description: 
+    character: 0
 --- !u!4 &2005776625
 Transform:
   m_ObjectHideFlags: 0
@@ -2026,6 +2183,10 @@ PrefabInstance:
       value: Cost
       objectReference: {fileID: 0}
     - target: {fileID: 4713792088411402242, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
+      propertyPath: cost
+      value: 
+      objectReference: {fileID: 575456161308074476}
+    - target: {fileID: 4713792088411402242, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
       propertyPath: attack
       value: 
       objectReference: {fileID: 575456161308074475}
@@ -2034,6 +2195,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 575456161308074474}
     - target: {fileID: 4713792088411402242, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
+      propertyPath: card.id
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713792088411402242, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
       propertyPath: cardName
       value: 
       objectReference: {fileID: 1514286827}
@@ -2041,6 +2206,18 @@ PrefabInstance:
       propertyPath: manaCost
       value: 
       objectReference: {fileID: 575456161308074476}
+    - target: {fileID: 4713792088411402242, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
+      propertyPath: card.cost
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713792088411402242, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
+      propertyPath: card.cardName
+      value: Test 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713792088411402242, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
+      propertyPath: card.description
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7415089233662156938, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
       propertyPath: m_text
       value: CO
