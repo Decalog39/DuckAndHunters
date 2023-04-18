@@ -2826,8 +2826,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50714a5975ce74b548d82d6cc058fad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hand: []
-  deck: []
+  hand: 
+  deck: 
 --- !u!1001 &2103189683
 PrefabInstance:
   m_ObjectHideFlags: 0
