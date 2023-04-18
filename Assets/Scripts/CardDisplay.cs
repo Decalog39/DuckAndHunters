@@ -20,13 +20,13 @@ public class CardDisplay : MonoBehaviour
 
     }
     
-    public void ShowCard()
+    /*public void ShowCard()
     {
         nameText.
     }
 
     public Card RandomCard()
     {
-        Card card = cardList
-    }
+        Card card = cardList;
+    }*/
 }
