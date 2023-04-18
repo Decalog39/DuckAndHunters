@@ -25,11 +25,6 @@ public class CardDatabase : MonoBehaviour
         cardList.Add(new Card(9,true, "Duck", 7, 3, 3, "This is a Duck"));
         cardList.Add(new Card(10,true, "Egg", 6, 2, 2, "This is an Egg"));
 
-        //cardList.Add(new Card(0, true, "MasterHunter", 10, 6, 6, "This is a MasterHunter"));
-
-
-
-
     }
 
 }
