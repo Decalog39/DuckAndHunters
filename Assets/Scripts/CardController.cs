@@ -17,7 +17,7 @@ public class CardController : MonoBehaviour
     private void Start() {
     }
 
-    public void Initialize(charCard card) {
+    public void Initialize(CharCard card) {
         cardName.text = card.cardName;
         cost.text = card.text.ToString();
         attack.text = card.attack.ToString();
