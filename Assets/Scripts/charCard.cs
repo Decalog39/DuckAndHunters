@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "newCard", menuName = "CharCard")]
 public class CharCard : Card
 {
     public int hp;
