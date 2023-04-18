@@ -24,6 +24,11 @@ public class CardController : MonoBehaviour
         health.text = card.health.ToString();
     }
 
+    public void Initialize(SpellCard card) {
+        cardName.text = card.cardName;
+        cost.text = card.text.ToString();
+    }
+
     private void Update() {
     }
 
