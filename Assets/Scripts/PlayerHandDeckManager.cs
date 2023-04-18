@@ -5,16 +5,13 @@ using System;
 
 public class PlayerHandDeckManager: MonoBehaviour
 {
-    public List<Card> hand = new List<Card>();
-    public List<Card> deck = new List<Card>();
+    public List<int> hand = new List<int>();
+    public List<int> deck = new List<int>();
     // Start is called before the first frame update
     void Awake()
     {
-        for (int i = 0; i < 20; i++){
-            deck.Add(new Card(i, true, "Card" + i, i%5, 3, 2, "NA"));
-        }
-        for (int i = 20; i < 40; i++){
-            deck.Add(new Card(i, false, "Card" + i, i%5, null, null, "NA"));
+        for (int i = 0; i < 40; i++){
+            deck.Add(i);
         }
     }
 
