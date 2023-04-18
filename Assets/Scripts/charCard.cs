@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "newCard", menuName = "CharCard")]
-[System.serializable]
+
 public class CharCard : Card
 {
     public int health, attack, cost;
