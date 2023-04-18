@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "newCard", menuName = "SpellCard")]
 public class SpellCard : Card
 {
     public string cardName;
