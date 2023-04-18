@@ -8,7 +8,6 @@ using TMPro;
 public class DisplayCard : MonoBehaviour
 {
     public List<Card> displayCard = new List<Card>();
-    //public Card[] displayCard = new Card[30];
     
     public int displayID;
 
