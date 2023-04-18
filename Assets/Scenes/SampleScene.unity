@@ -589,6 +589,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Card Name
       objectReference: {fileID: 0}
+    - target: {fileID: 2637819474905572700, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
+      propertyPath: displayCard.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4228870899565130475, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
       propertyPath: m_Name
       value: Cost
@@ -613,7 +617,8 @@ PrefabInstance:
       propertyPath: m_text
       value: CO
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2637819474905572700, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
 --- !u!224 &323435011 stripped
 RectTransform:
@@ -1886,60 +1891,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!1 &1371679135
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1371679137}
-  - component: {fileID: 1371679136}
-  m_Layer: 0
-  m_Name: CardController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1371679136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1371679135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1cd0fc2508604521aa33f9ce5b6e385, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  card:
-    id: 0
-    cost: 0
-    cardName: 
-    description: 
-    character: 0
-  cardName: {fileID: 0}
-  cost: {fileID: 0}
-  attack: {fileID: 0}
-  health: {fileID: 0}
---- !u!4 &1371679137
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1371679135}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 433.25, y: 219, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1382848631
 GameObject:
   m_ObjectHideFlags: 0
@@ -2145,6 +2096,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Card Name
       objectReference: {fileID: 0}
+    - target: {fileID: 2637819474905572700, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
+      propertyPath: displayCard.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4228870899565130475, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
       propertyPath: m_Name
       value: Cost
@@ -2169,7 +2124,8 @@ PrefabInstance:
       propertyPath: m_text
       value: CO
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2637819474905572700, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
 --- !u!224 &1426769679 stripped
 RectTransform:
@@ -2220,6 +2176,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1506201914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1506201916}
+  - component: {fileID: 1506201915}
+  m_Layer: 0
+  m_Name: CardDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1506201915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506201914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0d2c4396d5247d599d797d889b196c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1506201916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506201914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 493.19598, y: 150.94989, z: -7.722537}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1514286827 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 575456160339054338, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
@@ -2442,6 +2442,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Card Name
       objectReference: {fileID: 0}
+    - target: {fileID: 2637819474905572700, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
+      propertyPath: displayCard.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4228870899565130475, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
       propertyPath: m_Name
       value: Cost
@@ -2466,7 +2470,8 @@ PrefabInstance:
       propertyPath: m_text
       value: CO
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2637819474905572700, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
 --- !u!224 &1800470010 stripped
 RectTransform:
@@ -2707,6 +2712,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Card Name
       objectReference: {fileID: 0}
+    - target: {fileID: 2637819474905572700, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
+      propertyPath: displayCard.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4228870899565130475, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
       propertyPath: m_Name
       value: Cost
@@ -2731,7 +2740,8 @@ PrefabInstance:
       propertyPath: m_text
       value: CO
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2637819474905572700, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
 --- !u!224 &1997865489 stripped
 RectTransform:
@@ -2799,6 +2809,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
+=======
+--- !u!4 &2005776625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005776623}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 433.25, y: 219, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 9495648a7f1a4d540ae25339ebd79da290db94e5
 --- !u!114 &2005776626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2931,6 +2959,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Card Name
       objectReference: {fileID: 0}
+    - target: {fileID: 2637819474905572700, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
+      propertyPath: displayCard.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4228870899565130475, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
       propertyPath: m_Name
       value: Cost
@@ -2955,7 +2987,8 @@ PrefabInstance:
       propertyPath: m_text
       value: CO
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2637819474905572700, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
 --- !u!224 &2103189684 stripped
 RectTransform:
@@ -3104,6 +3137,26 @@ PrefabInstance:
     - target: {fileID: 575456160339054338, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
       propertyPath: m_text
       value: Card Name
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637819474905572700, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 575456161308074476}
+    - target: {fileID: 2637819474905572700, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
+      propertyPath: nameText
+      value: 
+      objectReference: {fileID: 1514286827}
+    - target: {fileID: 2637819474905572700, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
+      propertyPath: attackText
+      value: 
+      objectReference: {fileID: 575456161308074475}
+    - target: {fileID: 2637819474905572700, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
+      propertyPath: healthText
+      value: 
+      objectReference: {fileID: 575456161308074474}
+    - target: {fileID: 2637819474905572700, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
+      propertyPath: displayCard.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4228870899565130475, guid: 66471af97667c40b982126d1be5e30cf, type: 3}
       propertyPath: m_Name
