@@ -37,6 +37,8 @@ public class TurnSystem : MonoBehaviour
         if(isMyTurn){
             isMyTurn = false;
             enemyTurn++;
+            maxMana++;
+            currentMana = maxMana;
         }
     }
 

@@ -25,6 +25,10 @@ public class CardController : MonoBehaviour
     }
 
     private void Update() {
+        /*cardName.text = card.cardName;
+        cost.text = card.cost.ToString();
+        attack.text = card.attack.ToString();
+        health.text = card.health.ToString();*/
     }
 
 }
