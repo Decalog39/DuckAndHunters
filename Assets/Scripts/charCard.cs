@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "newCard", menuName = "CharCard")]
-
 public class CharCard : Card
 {
-    public int health, attack, cost;
+    public int hp;
+    public int attack;
     public string cardName;
     public string description;
+    public int cost;
 
-    public CharCard(int id, int health, int attack, int cost, string cardName, string description) : base(id)
+    public CharCard(int id, int hp, int attack, int cost, string cardName, string description) : base(id)
     {
-        this.health = health;
+        this.hp = hp;
         this.attack = attack;
         this.cardName = cardName;
         this.description = description;
