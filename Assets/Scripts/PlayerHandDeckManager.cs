@@ -18,7 +18,7 @@ public class PlayerHandDeckManager: MonoBehaviour
     void Start()
     {
         System.Random rnd = new System.Random();
-        for(int j = 0; j < 5; j++){
+        for(int j = 0; j < 8; j++){
             int x = rnd.Next(0, deck.Count);
             hand.Add(deck[x]);
             deck.RemoveAt(x);
