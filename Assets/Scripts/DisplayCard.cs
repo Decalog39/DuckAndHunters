@@ -24,11 +24,17 @@ public class DisplayCard : MonoBehaviour
     public TextMeshProUGUI attackText;
     //public TextMeshProUGUI descriptionText;
 
-    void Start() {
-        displayCard[0] = CardDatabase.cardList[displayID];
-    }
+    public bool cardBack;
+    public static bool staticCardBack;
 
-    void Update() {
+    // public GameObject Hand;
+    // public int numberOfCardsInDeck;
+
+    void Start() {
+        // numberOfCardsInDeck = PlayerDeck.deckSize;
+
+        displayCard[0] = GameManagerScript.instance.cardDatabase[displayID];
+
         id = displayCard[0].id;
         cardName = displayCard[0].cardName;
         cost = displayCard[0].cost;
@@ -41,6 +47,16 @@ public class DisplayCard : MonoBehaviour
         attackText.text = " " + attack;
         healthText.text = " " + health;
         //descriptionText.text = " " + description;
+
+    }
+
+    void Update() {
+        // Hand = GameObject.find("Hand");
+        // if(this.transform.parent == Hand.transform.parent) {
+        //     cardBack = false;
+        // }
+
+        staticCardBack = cardBack;
 
     }
 
